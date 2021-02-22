@@ -1,0 +1,14 @@
+name: prophet_example
+channels:
+  - defaults
+dependencies:
+  - requests
+  - dask
+  - fbprophet
+  - intake-parquet
+  - fastparquet
+  - plotly
+  - python-snappy
+  - aiohttp
+  - notebook
+  - intake
