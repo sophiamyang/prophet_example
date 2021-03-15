@@ -1,14 +1,15 @@
 name: prophet_example
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - requests
-  - dask
-  - fbprophet
-  - intake-parquet
-  - fastparquet
-  - plotly
-  - python-snappy
-  - aiohttp
-  - notebook
-  - intake
+  - requests=2.25.1
+  - dask=2021.3.0
+  - fbprophet=0.7.1
+  - intake-parquet=0.2.3
+  - fastparquet=0.5.0
+  - plotly=4.14.3
+  - python-snappy=0.5.4
+  - aiohttp=3.7.4
+  - notebook=6.2.0
+  - intake=0.6.1
